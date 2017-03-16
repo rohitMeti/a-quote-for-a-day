@@ -1,0 +1,20 @@
+{
+  "name": "a-quote-for-a-day",
+  "version": "1.0.0",
+  "description": "simple application to display random quotes",
+  "main": "app.js",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "hashmap": "^2.0.6",
+    "iedriver": "^3.0.0",
+    "link-check": "^3.0.2",
+    "page-link-checker": "^1.3.0",
+    "url-parse": "^1.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rohit meti",
+  "license": "ISC"
+}

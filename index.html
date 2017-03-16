@@ -1,0 +1,33 @@
+<html>
+	<head>
+	  <title>A quote for a  day</title>
+	</head>
+	<body>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<div align="center">
+		  <h1 style="color:#1e2c79" id="quote"></h1>
+		</div>
+	</body>
+	<script>
+		var quoteArray=["Don't cry because its over, smile because it happened.",
+"All that I am, or hope to be, I owe to my angel mother",
+"Be yourself everyone else is already taken.",
+"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+"Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
+"So many books, so little time.",
+"A room without books is like a body without a soul.",
+"You only live once, but if you do it right, once is enough",
+"Be the change that you wish to see in the world.",
+"If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.",
+"If you tell the truth, you don't have to remember anything",
+"A friend is someone who knows all about you and still loves you.",
+"Always forgive your enemies; nothing annoys them so much",
+"To live is the rarest thing in the world. Most people exist, that is all",
+"Nobody cares how much you know, until they know how much you care",
+"Whatever you are, be a good one",
+"I've always believed that if you put in the work, the results will come"				
+		];
+		var randomNumber=Math.floor((Math.random() * 16) + 2);
+          document.getElementById('quote').innerHTML=quoteArray[randomNumber-1];
+	</script>
+</html>
